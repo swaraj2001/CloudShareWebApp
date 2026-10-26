@@ -1,0 +1,8 @@
+$kind: collection
+name: CloudShare API
+description: |-
+  CloudShare Spring Boot API — running locally at http://localhost:8080/api/v1.0.
+  Auth: Clerk JWT stored in Vault (vault:json_web_token_09wq).
+variables:
+  - key: base_url
+    value: 'http://localhost:8080/api/v1.0'
